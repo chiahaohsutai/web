@@ -1,0 +1,16 @@
+/* Introduction Container */
+.intro {
+	margin-top: 200px;
+	margin-bottom: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 500px;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	font-size: x-large;
+}
+
+/* Text Styles for Introduction */
+.intro-msg {
+	line-height: 1.5em;
+}

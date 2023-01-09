@@ -1,0 +1,66 @@
+p {
+	margin: 0px;
+}
+
+.projects-intro {
+	margin-bottom: 40px;
+	font-size: larger;
+}
+
+/* Projects Container Grid */
+.projects {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	column-gap: 25px;
+	row-gap: 25px;
+}
+.project {
+  background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	line-height: 1.8em;
+	font-size: 12px;
+}
+
+/* Styles for individual thumbnails */
+.preview-img {
+	overflow: hidden;
+}
+.thumbnail {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	transition: 0.15s all ease-in-out;
+	overflow: hidden;
+}
+.preview-img:hover img {
+	transform: scale(1.1);
+}
+
+/* Styles for project Description */
+.preview-text {
+	margin-bottom: 30px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.project-desc {
+	font-weight: 500;
+	font-size: large;
+	margin: 15px 15px 10px 15px;
+}
+.tech-skills {
+	display: flex;
+	align-items: center;
+}
+.language-icon {
+	width: 36px;
+	margin-right: 12px;
+}
+.icons {
+	display: flex;
+	align-items: center;
+}

@@ -1,0 +1,21 @@
+body {
+
+	/* Backgorund Image Styling */
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	
+	/* Fonts and Text Styles */
+	font-family: 'Inconsolata', monospace;
+	color: white
+}
+.main-container {
+	margin: 170px 105px 100px 105px;
+}
+@media (max-width: 1000px) {
+	.main-container {
+		margin-top: 200px;
+	}
+}
